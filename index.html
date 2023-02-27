@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Loan Banking Calculator</title>
+    <link rel="stylesheet" href="assets/scripts/style.css">
+    <audio id="win-sound">
+        <source src="assets/sounds/win.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="logo">
+            <img src="assets/images/standard-chartered-logo.svg" alt="Standard Chartered logo">
+        </div>
+        <h1>Home Loan Banking Calculator</h1>
+        <form>
+            <div class="input-group">
+                <label for="loan-amount">Loan Amount in $AUD</label>
+                <input value="500000" type="number" id="loan-amount" name="loan-amount" step="1000" required>
+            </div>
+            <div class="input-group">
+                <label for="interest-rate">Interest Rate (%)</label>
+                <input value="5.24" type="number" id="interest-rate" name="interest-rate" step="0.01" required>
+            </div>
+            <div class="input-group">
+                <label for="loan-term">Loan Term (years)</label>
+                <input value="30" type="number" id="loan-term" name="loan-term" required>
+            </div>
+            <div class="input-group">
+                <label for="monthly-payment">Monthly Payment</label>
+                <input type="text" id="monthly-payment" name="monthly-payment" readonly>
+            </div>
+            <button type="submit" id="calculate-button">Calculate</button>
+        </form>
+        <div class="sc-hereforgood-logo">
+            <img src="assets/images/standard-chartered-hereforgood.svg" alt="SC here for good logo">
+        </div>
+    </div>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>

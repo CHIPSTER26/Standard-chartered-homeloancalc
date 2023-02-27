@@ -1,0 +1,131 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f1f1f1;
+
+
+  }
+
+  .logo {
+    position: absolute;
+
+    top: 50px;
+    left: auto;
+    width: 350px;
+  }
+
+  .sc-hereforgood-logo {
+    position: absolute;
+    bottom: 50px;
+    left: auto;
+    width: 150px;
+  }
+
+
+  .calculator-container {
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 450px;
+    min-height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+  }
+  
+  h1 {
+    margin: 0, 10px;
+    text-align: center;
+    font-size: 36px;
+    color: #0077c8;
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F6F6F6;
+    color: #1E1E1E;
+    font-size: 16px;
+  }
+
+  .input-group input {
+    text-align: center;
+  }
+  
+  button {
+    margin: 0, 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444444;
+  }
+
+
+  input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: #0077c8;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005ea2;
+  }
+
+  
+  #monthly-payment {
+    font-weight: bold;
+    font-size: larger;
+    color: #0077c8;
+  }
+
+  #loan-term, #interest-rate, #loan-amount {
+    font-weight: light;
+
+    color: #38D200
+  }
