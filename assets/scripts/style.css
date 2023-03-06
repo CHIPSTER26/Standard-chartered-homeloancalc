@@ -6,8 +6,10 @@ body {
 .tooltip {
   position: relative;
   display: inline-block;
-  font-size: 14px;
   /* border-bottom: 1px dotted black;  If you want dots under the hoverable text */
+}
+.tooltiptext {
+  font-size: 10px;
 }
 
 /* Tooltip text */
