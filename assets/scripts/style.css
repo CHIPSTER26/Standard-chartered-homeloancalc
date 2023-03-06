@@ -3,14 +3,14 @@ body {
     background-color: #f1f1f1;
   }
 /* Tooltip container */
-.monthly-payment {
+.tooltip {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
-.monthly-payment .tooltiptext {
+.tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -25,7 +25,7 @@ body {
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-.monthly-payment:hover .tooltiptext {
+.tooltip:hover .tooltiptext {
   visibility: visible;
 }
 
