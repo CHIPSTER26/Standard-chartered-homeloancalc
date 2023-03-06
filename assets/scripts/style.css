@@ -16,8 +16,8 @@ body {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
-  color: #38D200;
+  background-color: #38D200;
+  color: #0077c8;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
