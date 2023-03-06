@@ -3,14 +3,14 @@ body {
     background-color: #f1f1f1;
   }
 /* Tooltip container */
-.tooltip {
+.monthly-payment {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
-.tooltip .tooltiptext {
+.monthly-payment .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
