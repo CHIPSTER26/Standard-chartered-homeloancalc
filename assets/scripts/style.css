@@ -9,14 +9,14 @@ body {
   /* border-bottom: 1px dotted black;  If you want dots under the hoverable text */
 }
 .tooltiptext {
-  font-size: 20px;
+  font-size: 14px;
 }
 
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #1E1E1E;
+  background-color: #38D200;
   color: #0077c8;
   text-align: center;
   padding: 5px 0;
